@@ -76,10 +76,13 @@ form div input {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*add a margin to the bottom of our label text */
+
 label {
   display: block;
   margin-bottom: 5px;
 }
+/*style the icons which we imported from font-awesome */
 
 form div {
   position: relative;
@@ -142,6 +145,8 @@ form div i {
   padding: 10px;
 }
 
+/*add these styles to style the error class, along with the success and failure icons */
+
 .success-icon,
 .failure-icon {
   right: 0;
@@ -179,15 +184,16 @@ button {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.1s ease;
 }
+/*add a hover effect */
 
 button:hover {
   opacity: 0.8;
 }
 
-/**
+/** We want to make this responsive. So we'll add media queries to help us with that.
 * ! Media Queries are here
 **/
-
+/*For screens with a width from 900px */
 @media (max-width: 900px) {
   .container {
     flex-direction: column;
@@ -205,7 +211,7 @@ button:hover {
     height: 70vh;
   }
 }
-
+/*For screens with a width from 425px*/
 @media (max-width: 425px) {
   form {
     padding: 20px;
