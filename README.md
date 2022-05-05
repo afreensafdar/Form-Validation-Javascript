@@ -1,5 +1,7 @@
-# Login Form Validation -JavaScript
-## Build a JS Project
+# LOGIN FORM VALIDATION 
+
+A client side login form validation in javascript.
+
 ---
 
 ## Table of contents
