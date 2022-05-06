@@ -39,20 +39,35 @@ This is a simple Login form that uses HTML, CSS, Javascript, media queries for r
 
 ---
 
-## Demo- The published To-do App
+## Demo
+
+<h1 align="center">
+   Login Form
+</h1>
+
+<div align="center">
 
 ![Demo](images/form1.png)
 
+ A form made with the help of javascript.
+    
+</div>
 
 
 ---
 
 ## Screenshots
-![5.png](images/form1.png)
+* Invalid Credentails Page:
 
 ![1.png](images/form2.png)
 
+
+* Valid Credentails Page:
+
 ![2.png](images/form3.png)
+
+
+* Responsiveness
 
 ![3.png](images/form4.png)
 
